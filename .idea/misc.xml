@@ -12,6 +12,8 @@
         <entry key="app/src/main/res/layout/activity_splash.xml" value="0.35052083333333334" />
         <entry key="app/src/main/res/layout/activity_walkthrough.xml" value="0.35052083333333334" />
         <entry key="app/src/main/res/layout/daily_activity.xml" value="0.3494791666666667" />
+        <entry key="app/src/main/res/layout/daily_activity_recyclerview_row.xml" value="0.3494791666666667" />
+        <entry key="app/src/main/res/layout/daily_activity_recycleview_horizontal.xml" value="0.3494791666666667" />
         <entry key="app/src/main/res/layout/fragment_daily_activity.xml" value="0.35052083333333334" />
         <entry key="app/src/main/res/layout/fragment_gallery.xml" value="0.35052083333333334" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.35052083333333334" />
@@ -24,6 +26,7 @@
         <entry key="app/src/main/res/layout/home.xml" value="0.3494791666666667" />
         <entry key="app/src/main/res/layout/music_favorite.xml" value="0.3494791666666667" />
         <entry key="app/src/main/res/layout/profile.xml" value="0.3494791666666667" />
+        <entry key="app/src/main/res/layout/recycleview_grid.xml" value="0.3494791666666667" />
         <entry key="app/src/main/res/layout/walkthrough.xml" value="0.25" />
         <entry key="app/src/main/res/layout/walkthrough1.xml" value="0.35052083333333334" />
         <entry key="app/src/main/res/layout/walkthrough2.xml" value="0.35052083333333334" />
