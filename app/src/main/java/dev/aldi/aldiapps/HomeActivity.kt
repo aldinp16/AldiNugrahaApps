@@ -1,5 +1,11 @@
 package dev.aldi.aldiapps
 
+/**
+ * @author: aldinp16
+ * nim: 10119908
+ * kelas: IF10K
+ */
+
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.Fragment

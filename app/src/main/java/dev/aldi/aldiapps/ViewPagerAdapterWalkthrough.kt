@@ -1,5 +1,11 @@
 package dev.aldi.aldiapps
 
+/**
+ * @author: aldinp16
+ * nim: 10119908
+ * kelas: IF10K
+ */
+
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
