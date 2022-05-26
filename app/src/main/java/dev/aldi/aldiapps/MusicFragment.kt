@@ -5,6 +5,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.recyclerview.widget.GridLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -35,6 +37,20 @@ class MusicFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_music, container, false)
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        val list = listOf(
+            DailyActivity("1yOaxGQ-CYI", 0),
+            DailyActivity("jdWhJcrrjQs", 0),
+            DailyActivity("ZMorM6M2IlI", 0),
+            DailyActivity("EQPcKe0LDdQ", 0),
+        )
+
+        val recycleView: RecyclerView = view.findViewById(R.id.rvYoutube)
+        val recyclerViewAdapter = RecyclerViewAdapter(list, R.layout.recycleview_youtube, R.id.youtube_player_view, 0)
+        recycleView.adapter = recyclerViewAdapter
     }
 
     companion object {
